@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Meal Logger AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="registrationDiv" style="display: none;">
+    <h3>Register</h3>
+    <input type="text" id="usernameInput" placeholder="Enter username (tab name)" />
+    <input type="email" id="emailInput" placeholder="Enter your email" />
+    <button id="registerBtn">Register</button>
+    <div id="registerMessage" class="message"></div>
+  </div>
+
+  <div id="mealDiv" style="display: none;">
+    <h3>Meal Logger AI</h3>
+    <textarea id="mealInput" placeholder="Enter your meal..."></textarea>
+    <button id="submitMealBtn">Submit Meal</button>
+    <button id="viewMealsBtn">View Last 5 Meals</button>
+    <div id="responseDiv" class="message"></div>
+    <div id="mealHistoryDiv"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 280px;
+  padding: 10px;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+.message {
+  font-size: 12px;
+  margin-top: 5px;
+  min-height: 16px;
+}
+
+#mealHistoryDiv {
+  font-size: 12px;
+  max-height: 150px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+}
+
+.meal-block {
+  margin-bottom: 10px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.summary-line {
+  color: #A52A2A;       /* brown */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.timestamp-line {
+  background-color: transparent;
+  font-weight: normal;
+  padding: 0;
+  display: block;
+  border-radius: 0;
+}
